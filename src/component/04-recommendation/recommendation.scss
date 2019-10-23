@@ -1,0 +1,17 @@
+.recommendation{
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  height: 5.28rem;
+  justify-content: space-between;
+  a:nth-child(3)  {
+    position: absolute;
+    right: 0;
+    bottom: -.35rem;
+  }
+
+
+  img{
+    width: 3.72rem;
+  }
+}

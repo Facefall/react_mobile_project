@@ -10,13 +10,13 @@ $default-color:#f2f2f2;
 
   .App-header{
     display: flex;
-    padding: .05rem 0;
+    padding: .1rem 0;
 
     background-color: #f2f2f2;
     justify-content: space-around;
     div[class^='App']{
       display: flex;
-      height: .31rem;
+      height: .62rem;
       align-items: center;
     }
 
@@ -26,35 +26,35 @@ $default-color:#f2f2f2;
 
     .App-logo {
       img{
-        width: .25rem;
-        height: .16rem;
-        margin:0 .15rem;
+        width: .5rem;
+        height: .32rem;
+        margin:0 .3rem;
       }
     }
 
     .App-search{
-      width: 2.78rem;
+      width: 5.56rem;
       border:1px solid #e5e5e5;
-      border-radius: .02rem;
+      border-radius: .1rem;
       background-color: #fff;
 
       i{
-        padding:0 .05rem;
-        font-size: .2rem;
-        line-height: .2rem;
+        padding:0 .1rem;
+        font-size: .4rem;
+        line-height: .4rem;
       }
 
       input{
         height: 100%;
-        font-size: .15rem;
+        font-size: .3rem;
         border: none;
       }
     }
 
     .App-login{
-      width: .52rem;
+      width: 1.04rem;
       i{
-        font-size: .22rem;
+        font-size: .44rem;
         margin: 0 auto;
         color: rgba(0,0,0,.4);
       }
@@ -66,7 +66,7 @@ $default-color:#f2f2f2;
 
 
 .h-nav {
-  font-size: .135rem;
+  font-size: .27rem;
   color: rgba(0, 0, 0, .4);
 
   ul {
@@ -78,12 +78,12 @@ $default-color:#f2f2f2;
     li {
       width: calc(100vw/7);
       white-space: nowrap;
-      padding: 0 .13rem;
+      padding: 0 .26rem;
 
       p {
-        height: .34rem;
-        padding: .075rem 0;
-        border-bottom: .02rem solid transparent;
+        height: .68rem;
+        padding: .15rem 0;
+        border-bottom: .04rem solid transparent;
       }
 
 
