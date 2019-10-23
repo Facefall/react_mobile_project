@@ -13,7 +13,10 @@ class App extends Component {
                 <Header/>
                 <Banner/>
                 <Cells/>
+                <div className={'divider'} />
                 <Recommendation/>
+                <div className={'divider'} />
+
             </div>
         )
     }

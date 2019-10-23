@@ -74,3 +74,6 @@ li{
 img{
     vertical-align: top;
 }
+.divider{
+    border-bottom: 0.16rem solid rgb(245, 245, 245);
+}
