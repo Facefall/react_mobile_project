@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-// import ""
-// import  from "/node_modules/_swiper@5.1.0@swiper/";
-// import
-//swiper
+import "./banner.scss";
 
 class Banner extends Component {
     render() {
         return (
             <div className={'banner'}>
-                2
+                <ul>
+                    <li><a href=""><img src={require('../../img/banner1.jpg')} alt=""/> </a></li>
+                    <li><a href=""><img src={require('../../img/banner2.jpg')} alt=""/> </a></li>
+                    <li><a href=""><img src={require('../../img/banner3.jpg')} alt=""/> </a></li>
+                </ul>
             </div>
         );
     }

@@ -45,7 +45,7 @@ rem 根据文字大小font-size适配
     则 1rem = font-size的1倍 = font-size = 13.33333vw = 100px(设计图中的像素)
 
 */
-    font-size: calc(750px / 7.5);
+    font-size: calc( (750px / 7.5)/2);
 
 }
 .App{

@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import Header from "./component/header";
 import Banner from "./component/banner";
 
-
-
-
 class App extends Component {
     render() {
         return (
