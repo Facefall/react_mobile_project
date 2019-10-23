@@ -1,0 +1,15 @@
+.Cells {
+  ul {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(5, 20%);
+    li {
+      a {
+        display: grid;
+        img {
+          width: calc(100vw / 5);
+        }
+      }
+    }
+  }
+}
