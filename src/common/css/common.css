@@ -1,0 +1,79 @@
+/*在移动端上input和textarea边框问题*/
+/*去掉ios上阴影*/
+input,textarea{
+    outline: none;
+    -webkit-appearance: none;
+}
+/* ios解决滑动问题 */
+*,*:after,*:before{
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;/*抗锯齿渲染 使字体更清晰 针对苹果*/
+    -moz-osx-font-smoothing:grayscale;/*firefox 解决默认字体放大问题*/
+    -webkit-text-size-adjust: 100%;     /*解决默认字体会放大的问题*/
+    -webkit-user-select: none;
+    /*text-size-adjust:none;*/
+    color: #333;
+    /*background-color: #ddd;*/
+    /*overflow: hidden;*/
+    user-select: none;
+    /*-moz-text-size-adjust: none;*/
+    /*-ms-text-size-adjust: none;*/
+/*
+rem 根据文字大小font-size适配
+    设计图 750px
+    把设计图分成7.5份
+    每一等分 100px
+    设计图上是真实物理像素 375px,css对应为3.75rem
+
+    100% 设备宽
+    50% 设备宽的一半
+    100vw
+    50vw
+
+    100vw 整个视口的宽度
+    分成7.5份
+    每一份的宽度为 100vw / 7.5 = 13.3333vw (设计图的100px)
+
+    设置font-size: 13.3333vw
+    font-size: calc(750px / 7.5);
+
+    则 1rem = font-size的1倍 = font-size = 13.33333vw = 100px(设计图中的像素)
+
+*/
+    font-size: calc(750px / 7.5);
+
+}
+.App{
+    /*
+    设计图 750px -> CSS width:100px
+    实际设备宽度750px -> 实际width为50px
+
+    设计图 750px -> CSS width:100px
+    实际设备宽度375px -> 实际CSS width: 50px
+    */
+    /*width: 1rem;*/
+    /*height: 1rem;*/
+}
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+.App{
+    /*height: 1000px;*/
+}
