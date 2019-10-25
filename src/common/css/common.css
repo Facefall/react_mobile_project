@@ -46,7 +46,7 @@ rem 根据文字大小font-size适配
 
 */
     font-size: calc( (375px / 7.5));
-    height: 10000px;
+    /*height: 10000px;*/
 }
 .App{
     /*

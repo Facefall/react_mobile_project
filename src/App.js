@@ -6,11 +6,7 @@ import Recommendation from "./component/04-recommendation";
 import NewProduct from "./component/05-newProduct";
 import DailySelection from "./component/06-dailySelection";
 import ProductList from "./component/07-productList";
-
-
-
-
-
+import More from "./component/08-more";
 
 class App extends Component {
     render() {
@@ -26,6 +22,8 @@ class App extends Component {
                 <div className={'divider'} />
                 <DailySelection />
                 <ProductList />
+                <More/>
+
             </div>
         )
     }
