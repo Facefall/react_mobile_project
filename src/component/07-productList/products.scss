@@ -1,13 +1,15 @@
-.ProductList{
-  width: 100vw;
-  margin-top: .06rem;
-  font-size: .28rem;
-  text-align: center;
+//.ProductList{
+  //width: 100vw;
 
-  ul{
+
+  .ProductList{
     display: flex;
+    flex-wrap: wrap;
     width: 100vw;
+    margin-top: .06rem;
     justify-content: space-around;
+    text-align: center;
+    font-size: .28rem;
 
     li{
       img {
@@ -36,7 +38,7 @@
           font-weight: bold;
           vertical-align: middle;        }
       }
-      
+
       .tobut-btn{
         margin: auto;
         color:white;
@@ -49,4 +51,4 @@
       }
     }
   }
-}
+//}
