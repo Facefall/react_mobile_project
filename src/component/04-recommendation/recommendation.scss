@@ -1,14 +1,19 @@
 .recommendation{
+  //position: relative;
   display: flex;
   width: 100vw;
   flex-wrap: wrap;
   height: 5.28rem;
   justify-content: space-between;
-  a:nth-child(3)  {
-    position: absolute;
-    right: 0;
-    bottom: -.51rem;
-    z-index: -1;
+
+  a:nth-child(2)  {
+    height: 2.64rem;
+
+  }
+  a:nth-child(3){
+    display: inline-block;
+    margin-top: -2.62rem;
+    margin-left: auto;
   }
 
 

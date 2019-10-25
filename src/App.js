@@ -5,6 +5,8 @@ import Cells from "./component/03-cells";
 import Recommendation from "./component/04-recommendation";
 import NewProduct from "./component/05-newProduct";
 import DailySelection from "./component/06-dailySelection";
+import ProductList from "./component/07-productList";
+
 
 
 
@@ -23,6 +25,7 @@ class App extends Component {
                 <NewProduct />
                 <div className={'divider'} />
                 <DailySelection />
+                <ProductList />
             </div>
         )
     }

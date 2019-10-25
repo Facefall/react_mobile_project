@@ -1,0 +1,52 @@
+.ProductList{
+  width: 100vw;
+  margin-top: .06rem;
+  font-size: .28rem;
+  text-align: center;
+
+  ul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+
+    li{
+      img {
+        width: 3.56rem;
+      }
+
+      .product-info{
+        padding-top: .125rem;
+      }
+
+      .brief{
+        padding-top: .08rem;
+        font-size: .11rem;
+        color: rgba(0,0,0,.54);
+      }
+
+      .price{
+        color: #ea625b;
+        span{
+          display: inline-block;
+          margin-right: .04rem;
+          font-size: .3rem;
+        }
+        i{
+          font-size: .36rem;
+          font-weight: bold;
+          vertical-align: middle;        }
+      }
+      
+      .tobut-btn{
+        margin: auto;
+        color:white;
+        background-color: #ea625b;
+        width: 2.08rem;
+        height: .62rem;
+        line-height: .62rem;
+        border-radius: .1rem;
+        margin-bottom: .28rem;
+      }
+    }
+  }
+}
