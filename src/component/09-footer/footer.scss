@@ -1,0 +1,32 @@
+footer{
+  display: flex;
+  width: 100vw;
+  height: 1.04rem;
+  text-align: center;
+  //font-size:.22rem;
+  div:nth-child(1){
+      color:#ff6700;
+    }
+
+  div{
+    margin: auto ;
+
+    width: calc(99vw / 4);
+    //padding: 0 .3rem;
+    font-size:.23rem;
+    i{
+      width: .6rem;
+      height: .6rem;
+      line-height: .6rem;
+      font-size: .4rem!important;
+      font-weight: bold;
+    }
+
+
+    p{
+      //width: ;
+      font-size:.23rem;
+    }
+  }
+
+}

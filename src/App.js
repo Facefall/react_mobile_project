@@ -7,6 +7,8 @@ import NewProduct from "./component/05-newProduct";
 import DailySelection from "./component/06-dailySelection";
 import ProductList from "./component/07-productList";
 import More from "./component/08-more";
+import Footer from "./component/09-footer";
+
 
 class App extends Component {
     render() {
@@ -23,7 +25,7 @@ class App extends Component {
                 <DailySelection />
                 <ProductList />
                 <More/>
-
+                <Footer/>
             </div>
         )
     }
