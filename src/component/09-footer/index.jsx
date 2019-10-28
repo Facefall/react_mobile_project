@@ -13,11 +13,11 @@ class Index extends Component {
                     <i className={'iconfont icon-icon-'} />
                     <p>分类</p>
                 </div>
-                <div classname={'Cart'} >
+                <div className={'Cart'} >
                     <i className={'iconfont icon-gouwuche'} />
                     <p>购物车</p>
                 </div>
-                <div classname={'User'} >
+                <div className={'User'} >
                     <i className={'iconfont icon-yonghu'} />
                     <p>我的</p>
                 </div>

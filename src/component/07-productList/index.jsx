@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import "./products.scss";
 import ListItem from "./item";
+import {tabber} from "antd-mobile";
+
 
 class Index extends Component {
     render() {
         return (
             <ul className={'ProductList'}>
+
                 <ListItem/>
                 <ListItem/>
                 <ListItem/>
