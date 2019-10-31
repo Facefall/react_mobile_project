@@ -5,7 +5,7 @@ import Swiper from 'swiper';
 class Banner extends Component {
 
     componentDidMount() {
-        var mySwiper = new Swiper('.swiper-container', {
+        new Swiper('.swiper-container', {
             autoplay: true,//可选选项，自动滑动
             loop: true,
             pagination: {

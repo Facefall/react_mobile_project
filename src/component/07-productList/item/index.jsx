@@ -3,11 +3,6 @@ import React, {Component} from 'react';
 class Index extends Component {
     state = {img: "k20.webp"};//set default value
 
-    constructor(props) {
-        super(props);
-
-    }
-
     componentDidMount() {
         this.setState({
             img: this.props.img
