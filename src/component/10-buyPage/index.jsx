@@ -1,5 +1,5 @@
 import React from "react";
-import ImgRotate from "./imgRotation";
+// import ImgRotate from "./imgRotation";
 
 
 class Index extends React.Component {
@@ -7,7 +7,8 @@ class Index extends React.Component {
     render() {
         return (
             <div>
-                <ImgRotate/>
+                buy
+                {/*<ImgRotate/>*/}
             </div>
         )
     }
