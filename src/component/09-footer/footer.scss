@@ -3,6 +3,10 @@ footer{
   width: 100vw;
   height: 1.04rem;
   text-align: center;
+
+  position: sticky;
+  bottom: 0;
+  background-color: white;
   //font-size:.22rem;
   div:nth-child(1){
       color:#ff6700;

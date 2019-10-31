@@ -1,11 +1,23 @@
 import React, {Component} from 'react';
 
 class Index extends Component {
+    state = {img: "k20.webp"};//set default value
+
+    constructor(props) {
+        super(props);
+
+    }
+
+    componentDidMount() {
+        this.setState({
+            img: this.props.img
+        })
+    }
 
     render() {
         return (
             <li>
-                <img src={require('../../../img/redmi8pro.jpg')} alt=""/>
+                <img src={require(`../../../img/${this.state.img}`)} alt=""/>
                 <div className={'product-info'}>
                     <p className={'product-name'}>Redmi Note 8 Pro</p>
                     <p className={'brief'}>6400万全场景四摄</p>
