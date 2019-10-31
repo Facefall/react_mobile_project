@@ -7,13 +7,16 @@ footer{
   position: sticky;
   bottom: 0;
   background-color: white;
-  //font-size:.22rem;
-  div:nth-child(1){
+  a{
+    text-decoration: none;
+    color:rgb(0,0,0);
+  }
+  a:nth-child(1){
       color:#ff6700;
     }
 
   div{
-    margin: auto ;
+    margin:.1rem auto 0 ;
 
     width: calc(99vw / 4);
     //padding: 0 .3rem;

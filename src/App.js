@@ -6,9 +6,7 @@ import MyPage from "./component/13-myPage";
 import NotFound from "./component/notfound404";
 
 import {
-    BrowserRouter as Router,
-    // Router as Router,
-    // NavLink,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";

@@ -1,19 +1,23 @@
-.banner{
+.banner {
   height: 3.75rem;
   background-color: #DDD;
-  ul{
+
+  ul {
     display: flex;
-    overflow: hidden;
-    li{
-      a{
-        width: 100vw;
-        display: inline-block;
-        img{
-          width: 100%;
-          //height: 100%;
-        }
+    //overflow: auto;
+    li {
+
+      img {
+        width: 100%;
+
+        //height: 100%;
       }
     }
   }
+
+  //.swiper-container{
+  //  --swiper-theme-color: #ff6600;
+  //  --swiper-pagination-color: #00ff33;/* 两种都可以 */
+  //}
 }
 
