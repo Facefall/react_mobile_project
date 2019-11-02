@@ -1,9 +1,41 @@
 .backHeader{
   height: 1rem;
   width: 100vw;
-  background-color: #ddd;
+  //background-color: #ddd;
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  font-size: .22rem;
+  font-size: .3rem;
+  text-align: center;
+  background-color: #f2f2f2;
+  a{
+    //width: .5rem;
+    height: .5rem;
+    img.arrow{
+      width: .5rem;
+      //top: 0;
+      //bottom: 0;
+      margin: .25rem .2rem;
+      //margin: auto 0;
+      //margin:  0;
+    }
+  }
+
+  span{
+    flex-grow: 2;
+    color:#666;
+    margin: auto;
+    color:#000;
+    //width: ;
+  }
+
+  i{
+    //height: ;
+    //width: .42rem;
+    //margin-top: .2rem;
+    margin: .25rem 0.2rem;
+    //margin-right: ;
+
+    font-size: .5rem;
+    color:#666;
+  }
 }
