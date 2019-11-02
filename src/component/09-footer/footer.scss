@@ -1,5 +1,5 @@
-footer{
-  display: flex!important;
+footer {
+  display: flex !important;
   width: 100vw;
   height: 1.04rem;
   text-align: center;
@@ -7,32 +7,35 @@ footer{
   position: sticky;
   bottom: 0;
   background-color: white;
-  a{
-    text-decoration: none;
-    color:rgb(0,0,0);
-  }
-  a:nth-child(1){
-      color:#ff6700;
-    }
 
-  div{
-    margin:.1rem auto 0 ;
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  a.active{
+    color: #ff6700;
+  }
+
+  div {
+    margin: .1rem auto 0;
 
     width: calc(99vw / 4);
     //padding: 0 .3rem;
-    font-size:.23rem;
-    i{
+    font-size: .23rem;
+
+    i {
       width: .6rem;
       height: .6rem;
       line-height: .6rem;
-      font-size: .4rem!important;
+      font-size: .4rem !important;
       font-weight: bold;
     }
 
 
-    p{
+    p {
       //width: ;
-      font-size:.23rem;
+      font-size: .23rem;
     }
   }
 
