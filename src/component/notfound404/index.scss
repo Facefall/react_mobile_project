@@ -2,9 +2,33 @@
   display: flex;
   width: 100vw;
   height: 50vw;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20%;
+
   img{
     //width: 80vw;
     width: 80%;
     margin: auto;
+
+  }
+
+  .sorry {
+    width: 80%;
+    font-size: .45rem;
+    line-height: .68rem;
+    margin: auto;
+
+  }
+  .back {
+    width: 80%;
+    font-size: .3rem;
+    line-height: .68rem;
+    margin: auto;
+
+    a{
+      text-decoration: none;
+      color: #0b72a4;
+    }
   }
 }

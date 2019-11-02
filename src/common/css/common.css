@@ -1,20 +1,32 @@
 /*在移动端上input和textarea边框问题*/
 /*去掉ios上阴影*/
-input,textarea{
+/** {*/
+    /*scrollbar-3dlight-color: #fff; !* 3d亮色阴影边框(threedlightshadow)的外观颜色*!*/
+    /*scrollbar-highlight-color: #fff; !**动条3d高亮边框(threedhighlight)的外观颜色*!*/
+    /*scrollbar-arrow-color: #fff; !* 滚动条方向箭头的颜色*!*/
+    /*scrollbar-shadow-color: #fff; !* 滚动条方向箭头的颜色*!*/
+    /*scrollbar-darkshadow-color: #fff; !* 滚动条3d暗色阴影边框(threeddarkshadow)的外观颜色*!*/
+    /*scrollbar-base-color: #fff; !* 滚动条基准颜色*!*/
+    /*scrollbar-track-color: #fff; !* 滚动条拖动区域的外观颜色*!*/
+/*}*/
+
+input, textarea {
     outline: none;
     -webkit-appearance: none;
 }
+
 /* ios解决滑动问题 */
-*,*:after,*:before{
+*, *:after, *:before {
     -webkit-overflow-scrolling: touch;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;/*抗锯齿渲染 使字体更清晰 针对苹果*/
-    -moz-osx-font-smoothing:grayscale;/*firefox 解决默认字体放大问题*/
-    -webkit-text-size-adjust: 100%;     /*解决默认字体会放大的问题*/
+    -webkit-font-smoothing: antialiased; /*抗锯齿渲染 使字体更清晰 针对苹果*/
+    -moz-osx-font-smoothing: grayscale; /*firefox 解决默认字体放大问题*/
+    -webkit-text-size-adjust: 100%; /*解决默认字体会放大的问题*/
     -webkit-user-select: none;
     /*text-size-adjust:none;*/
     color: #333;
@@ -23,35 +35,37 @@ html{
     user-select: none;
     /*-moz-text-size-adjust: none;*/
     /*-ms-text-size-adjust: none;*/
-/*
-rem 根据文字大小font-size适配
-    设计图 750px
-    把设计图分成7.5份
-    每一等分 100px
-    设计图上是真实物理像素 375px,css对应为3.75rem
+    /*
+    rem 根据文字大小font-size适配
+        设计图 750px
+        把设计图分成7.5份
+        每一等分 100px
+        设计图上是真实物理像素 375px,css对应为3.75rem
 
-    100% 设备宽
-    50% 设备宽的一半
-    100vw
-    50vw
+        100% 设备宽
+        50% 设备宽的一半
+        100vw
+        50vw
 
-    100vw 整个视口的宽度
-    分成7.5份
-    每一份的宽度为 100vw / 7.5 = 13.3333vw (设计图的100px)
+        100vw 整个视口的宽度
+        分成7.5份
+        每一份的宽度为 100vw / 7.5 = 13.3333vw (设计图的100px)
 
-    设置font-size: 13.3333vw
-    font-size: calc(375px / 7.5);
+        设置font-size: 13.3333vw
+        font-size: calc(375px / 7.5);
 
-    则 1rem = font-size的1倍 = font-size = 13.33333vw = 100px(设计图中的像素)
+        则 1rem = font-size的1倍 = font-size = 13.33333vw = 100px(设计图中的像素)
 
-*/
-    font-size: calc( (375px / 7.5));
+    */
+    font-size: calc((375px / 7.5));
     /*height: 10000px;*/
 }
-body{
+
+body {
     background-color: white;
 }
-.App{
+
+.App {
     /*
     设计图 750px -> CSS width:100px
     实际设备宽度750px -> 实际width为50px
@@ -62,21 +76,26 @@ body{
     /*width: 1rem;*/
     /*height: 1rem;*/
 }
-*{
-    margin:0;
+
+* {
+    margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-img{
+
+img {
     vertical-align: top;
 }
-.divider{
+
+.divider {
     border-bottom: 0.16rem solid rgb(245, 245, 245);
 }
