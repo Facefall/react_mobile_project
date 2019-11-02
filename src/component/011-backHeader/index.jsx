@@ -3,7 +3,6 @@ import "./index.scss";
 import {
     NavLink
 } from "react-router-dom";
-// import MainPage from "../12-mainPage";
 
 
 
@@ -11,6 +10,16 @@ class Index extends Component {
     state={
         subtitle:'购物车'
     };
+
+    componentDidMount() {
+        // console.log(this.props);
+        // console.log(this.state);
+        if (this.props.subtitle !== this.state.subtitle){
+            this.setState({
+                subtitle:this.props.subtitle
+            })
+        }
+    }
 
     render() {
         return (
