@@ -1,0 +1,37 @@
+.Cart-list {
+
+  font-size: .24rem;
+  color: rgba(0, 0, 0, .27);
+
+  .Cart-empty {
+    height: 1.24rem;
+    line-height: 1.24rem;
+    text-align: center;
+    background-color: #ebebeb;
+
+    img{
+      vertical-align: middle;
+      margin-right: .2rem;
+      height: .8rem;
+      margin-bottom: .1rem;
+      //width: 1rem;
+    }
+    span{
+      margin-right: .18rem;
+    }
+
+    em {
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, .15);
+      box-sizing: border-box;
+      height: .5rem;
+      line-height: .5rem;
+      padding: 0 .24rem;
+      color: rgba(0, 0, 0, .87);
+      font-style: normal;
+    }
+  }
+
+
+}
+
