@@ -8,26 +8,11 @@ import "./footer.scss";
 
 
 class Index extends Component {
-    componentDidMount() {
-        this._footer.addEventListener("touchend",(e) => {
-            e.target.classList.toggle('active');
-            // if (e.targe)
-            // if (e.target.classList.contains('active')){
-            //     e.target.classList.remove('active')
-            // } else{
-            //     e.target.classList.add('active')
-            // }
-            // console.log(e.target);
-            // this._Cart.style='color:#ff6700';
-
-        })
-    }
-
-    //触发顺序 touchStart toucheEnd click
-    //touchEnd
-    // handleClick = (className) =>{
-    //     console.log(className);
-    // };
+    // componentDidMount() {
+    //     this._footer.addEventListener("touchend",(e) => {
+    //         e.target.classList.toggle('active');
+    //     })
+    // }
 
     render() {
         return (
@@ -38,7 +23,7 @@ class Index extends Component {
                         <p>首页</p>
                     </div>
                 </NavLink>
-                <NavLink to={'buyPage'} ref={div => this._Category = div}>
+                <NavLink to={'category'} ref={div => this._Category = div}>
                     <div className={'Category'}  >
                         <i className={'iconfont icon-icon-'} />
                         <p>分类</p>
