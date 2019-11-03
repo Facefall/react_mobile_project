@@ -109,7 +109,7 @@ class Index extends Component {
 
                     <div className={'service'}>
                         <img src={require('./img/i-setting.png')} alt=""/>
-                        <div className={'service-right divider'} >
+                        <div className={'service-right'} >
                             <p>
                                 设置
                             </p>
