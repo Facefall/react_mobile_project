@@ -1,4 +1,8 @@
+header{
+  height: 1rem;
+}
 .backHeader{
+  position: fixed;
   height: 1rem;
   width: 100vw;
   //background-color: #ddd;
@@ -7,6 +11,7 @@
   font-size: .3rem;
   text-align: center;
   background-color: #f2f2f2;
+  z-index: 1;
   a{
     //width: .5rem;
     height: .5rem;
